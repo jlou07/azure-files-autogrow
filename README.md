@@ -41,9 +41,9 @@ Email notifications are sent through **Azure Communication Services Email** — 
 1. Open [Azure Cloud Shell](https://shell.azure.com) (Bash).
 2. Download the three files from this repo into your Cloud Shell home directory:
    ```bash
-   curl -O https://raw.githubusercontent.com/<your-org>/<your-repo>/main/main.bicep
-   curl -O https://raw.githubusercontent.com/<your-org>/<your-repo>/main/Grow-FslogixShare.ps1
-   curl -O https://raw.githubusercontent.com/<your-org>/<your-repo>/main/deploy-cloudshell.sh
+   curl -O https://github.com/jlou07/azure-files-autogrow/edit/main/main.bicep
+   curl -O https://github.com/jlou07/azure-files-autogrow/edit/main/main/Grow-FslogixShare.ps1
+   curl -O https://github.com/jlou07/azure-files-autogrow/edit/main/main/deploy-cloudshell.sh
    chmod +x deploy-cloudshell.sh
    ```
 3. Run the script:
